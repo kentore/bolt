@@ -1,32 +1,46 @@
-# Text Block Editor (Python Tkinter Version)
+# Block Flow Editor Plus
 
-This is a desktop text editing application built with Python and Tkinter.
-It allows users to import text, break it down into manageable blocks (titles and paragraphs),
-edit these blocks, and navigate the document structure.
+A modern web-based text block editor built with React and TypeScript. This application allows users to import text, break it down into manageable blocks (titles and paragraphs), edit these blocks, and navigate the document structure with an intuitive interface.
 
 ## Features
 
-- Import text by typing, pasting, or opening `.txt` files.
-- Automatically analyze text to identify titles and paragraphs.
-- Edit, delete, and add text blocks.
-- Toggle block type between title and paragraph.
-- Collapse and expand titles to manage content visibility.
-- Navigate document structure using an outline panel.
-- Save the edited blocks to a `.txt` file.
-- View statistics about the text (word count, block counts).
-- "Clear All" functionality to reset the editor.
+- Import text by typing, pasting, or opening `.txt` files
+- Automatically analyze text to identify titles and paragraphs
+- Edit, delete, and add text blocks with real-time updates
+- Toggle block type between title and paragraph
+- Collapse and expand titles to manage content visibility
+- Navigate document structure using an interactive outline panel
+- Save the edited blocks to a `.txt` file
+- View comprehensive statistics about the text (word count, block counts)
+- "Clear All" functionality to reset the editor
+- Responsive design that works on desktop and mobile
 
-## Requirements
+## Tech Stack
 
-- Python 3.x
-- Tkinter (usually included with Python standard library)
+- React 18 with TypeScript
+- Vite for fast development and building
+- Tailwind CSS for styling
+- shadcn/ui components for consistent UI
+- Lucide React for icons
+- React Router for navigation
 
-## How to Run
+## Getting Started
 
-1. Ensure you have Python 3 installed.
-2. Clone this repository or download the source files.
-3. Navigate to the project directory (where `main.py` is located).
-4. Run the application:
-   ```bash
-   python main.py
-   ```
+1. Clone this repository
+2. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
+3. Start the development server:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Build for Production
+
+\`\`\`bash
+npm run build
+\`\`\`
+
+The built files will be in the `dist` directory.
